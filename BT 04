@@ -1,0 +1,125 @@
+# 2025_FIT4014_ThietKeWed
+
+1 file changed
++110
+-0
+lines changed
+Search within code
+ 
+‎bài 4
++110
+Lines changed: 110 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Thông tin nhân viên</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h2 {
+      text-align: center;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>FORM THÔNG TIN NHÂN VIÊN</h2>
+    <div class="section">
+      <h3>Thông tin cơ bản</h3>
+      <label>Mã nhân viên</label>
+      <input type="text" name="employeeID">
+      
+      <label>Họ</label>
+      <input type="text" name="lastName">
+      
+      <label>Tên</label>
+      <input type="text" name="firstName">
+      
+      <label>Giới tính</label>
+      <select name="gender">
+        <option value="male">Nam</option>
+        <option value="female">Nữ</option>
+      </select>
+      
+      <label>Chức danh</label>
+      <input type="text" name="title">
+    </div>
+    <div class="section">
+      <h3>Thông tin liên hệ</h3>
+      <label>Email</label>
+      <input type="email" name="email">
+      
+      <label>Địa chỉ</label>
+      <input type="text" name="address">
+      
+      <label>Thành phố</label>
+      <input type="text" name="city">
+      
+      <label>Quốc gia</label>
+      <input type="text" name="country">
+      
+      <label>Số điện thoại</label>
+      <input type="tel" name="phone">
+    </div>
+    <div class="section">
+      <h3>Thông tin bổ sung</h3>
+      <label>Ghi chú</label>
+      <textarea name="notes" rows="4"></textarea>
+      
+      <label>Ca làm việc ưa thích</label>
+      <select name="shift">
+        <option value="regular">Thường</option>
+        <option value="night">Ca đêm</option>
+      </select>
+      
+      <label>Đang hoạt động?</label>
+      <select name="active">
+        <option value="yes">Có</option>
+        <option value="no">Không</option>
+      </select>
+    </div>
+    <div class="buttons">
+      <button type="submit">Gửi</button>
+      <button type="reset">Hủy</button>
+    </div>
+  </div>
+</body>
+</html>
+0 commit comments
+Comments
+0
+ (0)
+Comment
+You're not re
